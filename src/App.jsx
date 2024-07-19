@@ -12,7 +12,6 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-<<<<<<< Updated upstream
       <Header />
       <Routes>
         <Route path="/" element={<Dashboard />} />
@@ -22,9 +21,7 @@ function App() {
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/voucher" element={<Voucher />} />
       </Routes>
-=======
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
->>>>>>> Stashed changes
     </>
   );
 }
