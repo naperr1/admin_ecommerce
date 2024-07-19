@@ -21,7 +21,6 @@ function App() {
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/voucher" element={<Voucher />} />
       </Routes>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </>
   );
 }
